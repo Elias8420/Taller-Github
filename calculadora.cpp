@@ -11,4 +11,11 @@ int main() {
     cout << "4. Division" << endl;
     cin >> opcion;
 
+    switch(opcion) {
+        case 1:
+            resultado = n1 + n2;
+            cout << "La suma de los numeros es" << resultado << endl;
+        break;
+    }
+
 }
